@@ -1,4 +1,4 @@
-# Type 201
+<h1 align="center"> Type 201 </h1>
 Super simple custom hydronic Heater/Cooler Type for TRNSYS Simulation Studio. Written in Fortran. To be used as an add-on extension for TRNSYS Simulation Studio. Either use the pre-compiled DLLs or modify the source code to your needs and then compile it yourself. 
 
 ## Purpose
