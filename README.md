@@ -94,6 +94,9 @@ You can find the list of all available versions or releases for this project in 
    ```git
   git checkout tags/v1.0.0
    ```
+## Authors:
+Bořivoj Šourek (ČVUT UCEEB) - mathematical model
+Erika Langerová (ČVUT UCEEB) - Fortran implementation, compilation
 
 ## License 
 This project is licensed under the LICENSE.md - see the file for details.
