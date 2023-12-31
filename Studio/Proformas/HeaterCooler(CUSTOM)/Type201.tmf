@@ -1,0 +1,428 @@
+#ESI!
+4.0
+Custom Heating/Cooling Element
+0
+
+B.Sourek, E.Langerova
+CTU UCEEB
+1
+
+2
+2
+October 29, 2023
+
+October 29, 2023
+1
+
+noowner
+__
+__
+__
+1
+User written Type for simulating ideal heater/cooler. This type is ideally suited for integration with thermal energy storage systems in applications such as domestic hot water, space heating, and cooling.
+0
+0
+0
+0
+0
+0
+__
+__
+__
+1
+
+0
+__
+__
+__
+__
+0
+0
+__
+
+__
+__
+__
+16
+Tw_1
+Tw_1
+1
+Inlet water temperature. Temperature at the inlet of the heater/cooler
+simple
+real
+1
++
+-Inf
++Inf
+[ ; ]
+30
+0
+C
+Temperature
+T_D
+T_D
+1
+Room temperature
+simple
+real
+1
++
+-Inf
++Inf
+[ ; ]
+20
+0
+C
+Temperature
+Mw_in
+Mw_in
+1
+Inlet flowrate. Flowrate at the inlet of the heater/cooler.
+simple
+real
+1
++
+-Inf
++Inf
+[ ; ]
+0.5
+0
+kg/hr
+Flow Rate
+Qn
+Qn
+1
+Rated power at nominal conditions
+simple
+real
+3
++
+-Inf
++Inf
+[ ; ]
+8000
+0
+kJ/hr
+Power
+Mw_n
+Mw_n
+1
+Rated flowrate
+simple
+real
+3
++
+-Inf
++Inf
+[ ; ]
+0.5
+0
+kg/hr
+Flow Rate
+Tw_1n
+Tw1_n
+1
+Rated inlet temperature
+simple
+real
+3
++
+-Inf
++Inf
+[ ; ]
+30
+0
+C
+Temperature
+Tw_2n
+Tw2_n
+1
+Rated outlet temperature
+simple
+real
+3
++
+-Inf
++Inf
+[ ; ]
+25
+0
+C
+Temperature
+cp
+cp
+1
+Specific heat of fluid used
+simple
+real
+3
++
+-Inf
++Inf
+[ ; ]
+4.186
+0
+kJ/kg.K
+Specific Heat
+T_Dn
+T_Dn
+1
+Rated room temperature
+simple
+real
+3
++
+-Inf
++Inf
+[ ; ]
+20
+0
+C
+Temperature
+Qheat
+Q_heat
+1
+Heating power output
+simple
+real
+2
++
+-Inf
++Inf
+[ ; ]
+0
+0
+kJ/hr
+Power
+Tw_2
+Tw_2
+1
+Outlet water temperature
+simple
+real
+2
++
+-Inf
++Inf
+[ ; ]
+0
+0
+C
+Temperature
+Qcool
+Q_cool
+1
+Cooling power output
+simple
+real
+2
++
+-Inf
++Inf
+[ ; ]
+0
+0
+kJ/hr
+Power
+Mw_out
+Mw_out
+1
+Outlet flowrate
+simple
+real
+2
++
+-Inf
++Inf
+[ ; ]
+0
+0
+kg/hr
+Flow Rate
+Tw_1
+Tw_1
+1
+Initial inlet temperature Tw_1
+simple
+real
+5
++
+-Inf
++Inf
+[ ; ]
+0
+0
+C
+Temperature
+T_D
+T_D
+1
+Initial ambient temperature T_D
+simple
+real
+5
++
+-Inf
++Inf
+[ ; ]
+0
+0
+C
+Temperature
+Mw_in
+Mw_in
+1
+Initial inlet flowarate Mw_in
+simple
+real
+5
++
+-Inf
++Inf
+[ ; ]
+0
+0
+kg/hr
+Flow Rate
+0
+0
+0
+0
+0
+
+*** trnModel specific properties ***
+9999
+201
+
+9
+
+
+
+0
+
+
+
+0
+
+
+
+0
+
+
+
+0
+
+
+
+0
+
+
+
+0
+
+
+
+0
+
+
+
+0
+
+
+
+0
+9
+
+
+
+0
+
+
+0
+
+
+
+0
+
+
+0
+
+
+
+0
+
+
+0
+
+
+
+0
+
+
+0
+
+
+
+0
+
+
+0
+
+
+
+0
+
+
+0
+
+
+
+0
+
+
+0
+
+
+
+0
+
+
+0
+
+
+
+0
+
+
+0
+2
+heater
+cooler
+0
+2
+0
+
+
+1
+100
+0
+3
+0
+
+
+1
+100
+0
+5
+0
+
+
+1
+100
+0
+2
+0
+
+
+1
+100
