@@ -1,8 +1,8 @@
-# Type201
+# Type 201
 Super simple custom hydronic Heater/Cooler Type for TRNSYS Simulation Studio. Written in Fortran. To be used as an add-on extension for TRNSYS Simulation Studio. Either use the pre-compiled DLLs or modify the source code to your needs and then compile it yourself. 
 
 ## Purpose
-Type201 is a versatile TRNSYS component designed for simulating a heating/cooling element in thermal systems. It dynamically adjusts its output based on flow rate and temperature conditions, making it useful for simulations involving variable operational conditions.
+Type 201 is a versatile TRNSYS component designed for simulating a heating/cooling element in thermal systems. It dynamically adjusts its output based on flow rate and temperature conditions, making it useful for simulations involving variable operational conditions.
 
 ## Key Points
 - Heating or Cooling: Determines whether to heat or cool based on average fluid temperature compared to design temperature.
@@ -54,7 +54,7 @@ These instructions will get you a copy of the project up and running on your loc
 8. Now, you're all set! Use it just like you would with other Types.
 
 ## Usage
-Type201 simulates a heating or cooling element, which adjusts the temperature of a fluid (by default water) based on various parameters and inputs.
+Type 201 simulates a heating or cooling element, which adjusts the temperature of a fluid (by default water) based on various parameters and inputs.
 ### Parameters
 - Qn: Nominal heating/cooling power (kJ/hr).
 - Mw_n: Nominal mass flow rate of the fluid (kg/hr).
