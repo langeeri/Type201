@@ -47,7 +47,7 @@ These instructions will get you a copy of the project up and running on your loc
    ```
 2. Move all files from the `SourceCode\` directory to the corresponding directory in the TRNSYS root directory (default location: `C:\TRNSYS18`).
 3. Move all files from the `Studio\Proformas` directory to the corresponding directory in the TRNSYS root directory.
-4. Launch TypeStudio.exe (default location: C:\TRNSYS18\TypeStudio). Load the source code you copied in Step 2 into TypeStudio.
+4. Launch TypeStudio.exe (default location: `C:\TRNSYS18\TypeStudio`). Load the source code you copied in Step 2 into TypeStudio.
 5. Feel free to make any changes in the source code as desired for your project.
 6. Compile the workspace by pressing Ctrl+B or by selecting the Compile Workspace button under the Build menu.
 7. Launch TRNSYS Simulation Studio. You'll see a directory named HeaterCooler(CUSTOM) in the library tree on the right-hand panel. Inside this directory, Type201 will be available.
